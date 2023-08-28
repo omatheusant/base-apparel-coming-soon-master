@@ -1,0 +1,60 @@
+@media (max-width: 768px){
+
+   
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        overflow: visible;
+        background-image: url(../images/bg-pattern-desktop.svg);
+        width: 100vw;
+
+    }
+
+    .container .content {
+        position: static;
+        background-image: none;
+        gap: 30px;
+        padding-top: 15px;
+    }
+
+    .container .content .tittle{
+        font-size: 5.0rem;
+        margin-bottom: 15px;
+
+    }
+
+    .container .content .information{
+        font-size: 1.6rem;
+        width: 300px;
+    }
+
+
+    .container a .logo{
+        position: absolute;
+        
+    }
+
+    .container .hero-desktop {
+        order: 0;
+        width: 300px;
+        
+    }
+    
+    .container .content{
+        order: 1;
+        text-align: center;
+        width: 100vw;
+        
+    }
+
+   
+    .email-label{
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+}
